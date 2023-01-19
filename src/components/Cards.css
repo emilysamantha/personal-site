@@ -1,0 +1,43 @@
+.cards-title {
+  margin-top: 10vh;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 4vh 0px;
+}
+
+.cards-items {
+  margin-bottom: 20px;
+}
+
+.card-end > p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+  .cards-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    background-image: url("../images/blue_green.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .cards-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+}
