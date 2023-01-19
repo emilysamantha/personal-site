@@ -1,0 +1,126 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 95vh;
+}
+
+.hero-text {
+  margin-top: 50vh;
+}
+
+.hero-title-container {
+  display: inline-block;
+}
+
+.title-cursor {
+  display: flex;
+}
+
+.hero-title {
+  overflow: hidden;
+  animation: typing 2.5s steps(10, end) forwards;
+  display: inline-block;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}
+
+.cursor {
+  margin-top: 0.8vh;
+  background-color: var(--green);
+  width: 10px;
+  height: 4.2rem;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0);
+  animation: blinker 1.2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-btn {
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 2vh;
+  display: inline-block;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+}
+
+.hero-btn:hover {
+  background-color: var(--navy);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-icon {
+  margin-right: 0.8vw;
+  font-size: 1.4rem;
+}
+
+canvas {
+  min-width: 580px;
+}
+
+.hero-spline {
+  margin-top: 15vh;
+}
+
+@media screen and (max-width: 1150px) {
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .hero-text {
+    margin-top: 0px;
+  }
+
+  .hero-spline {
+    margin-top: 0px;
+    position: relative;
+    top: -3vh;
+    left: -9vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .cursor {
+    height: 3.8rem;
+  }
+
+  .hero-name,
+  .hero-desc {
+    font-size: 1.2rem;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .btn-icon {
+    font-size: 1.2rem;
+    margin-right: 2vw;
+  }
+
+  .hero-spline {
+    width: 300px;
+  }
+}
