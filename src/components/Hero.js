@@ -1,7 +1,45 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
+import gsap from "gsap";
 
 export default function Hero() {
+  useEffect(() => {
+    gsap.fromTo(
+      ".stagger",
+      { opacity: 0, y: "10vh" },
+      {
+        duration: 1,
+        opacity: 1,
+        y: "0vh",
+        delay: 2,
+        stagger: 0.5,
+      }
+    );
+
+    gsap.fromTo(
+      ".hero-btn",
+      { opacity: 0 },
+      {
+        duration: 0.5,
+        opacity: 1,
+        delay: 3,
+      }
+    );
+
+    gsap.fromTo(
+      ".hero-spline",
+      { opacity: 0, scale: 0.75, rotation: 90, y: "10vh" },
+      {
+        duration: 0.75,
+        opacity: 1,
+        scale: 1,
+        rotation: 0,
+        y: "0vh",
+        delay: 3.5,
+      }
+    );
+  }, []);
+
   return (
     <div className="hero">
       <div className="hero-text">
