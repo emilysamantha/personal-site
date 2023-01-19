@@ -1,28 +1,28 @@
 import React, { useEffect } from "react";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import Footer from "../Footer";
 import "./About.css";
 import file from "../../files/EmilyZarry_Resume.pdf";
-// import gsap from "gsap";
+import gsap from "gsap";
 
 export default function About() {
-  //   useEffect(() => {
-  //     gsap.fromTo(
-  //       ".stagger",
-  //       { opacity: 0, y: "10vh" },
-  //       {
-  //         duration: 1,
-  //         opacity: 1,
-  //         y: "0vh",
-  //         delay: 2,
-  //         stagger: 0.5,
-  //       }
-  //     );
-  //   });
+  useEffect(() => {
+    gsap.fromTo(
+      ".stagger",
+      { opacity: 0, y: "10vh" },
+      {
+        duration: 1,
+        opacity: 1,
+        y: "0vh",
+        delay: 2,
+        stagger: 0.5,
+      }
+    );
+  });
 
   return (
     <div className="about">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="about-content">
         <div className="about-title-container">
           <div className="title-cursor">
