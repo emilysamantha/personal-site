@@ -1,0 +1,83 @@
+:root {
+  --beige: #fef6ef;
+  --navy: #142853;
+  --purple: #b9a9ff;
+  --pink: #f4c0f4;
+  --green: #95f5d5;
+  --blue: #9cb8f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: var(--beige);
+  color: var(--navy);
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--navy);
+}
+
+.hero,
+.cards {
+  padding: 0px 8vw;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.green {
+  color: var(--green);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.purple-hover:hover {
+  color: var(--purple);
+}
+
+.pink-hover:hover {
+  color: var(--pink);
+}
+
+.green-hover:hover {
+  color: var(--green);
+}
+
+.blue-hover:hover {
+  color: var(--blue);
+}
+
+.navy-hover:hover {
+  color: var(--navy);
+}
