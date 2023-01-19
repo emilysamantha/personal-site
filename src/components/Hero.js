@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
 import gsap from "gsap";
+import Spline from "@splinetool/react-spline";
 
 export default function Hero() {
   useEffect(() => {
@@ -59,10 +60,10 @@ export default function Hero() {
           <i class="fa-solid fa-envelope btn-icon"></i>Say Hello
         </a>
       </div>
-      {/* <Spline
+      <Spline
         className="hero-spline"
         scene="https://prod.spline.design/ev5NrH3HXte1u59k/scene.splinecode"
-      /> */}
+      />
     </div>
   );
 }
