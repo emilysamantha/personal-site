@@ -1,17 +1,15 @@
-import Hero from "./components/Hero";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Hero />
-      <Cards />
-      <Footer />
-      <About />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="personal-site/" element={<Home />} />
+        <Route path="personal-site/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
