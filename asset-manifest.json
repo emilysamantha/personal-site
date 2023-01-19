@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.52493993.css",
-    "main.js": "/personal-site/static/js/main.d19327fc.js",
+    "main.css": "/personal-site/static/css/main.40790f1f.css",
+    "main.js": "/personal-site/static/js/main.327fa7c7.js",
     "static/media/blue_green.png": "/personal-site/static/media/blue_green.ed3f045eb8702a3db4ee.png",
     "static/media/green_purple.png": "/personal-site/static/media/green_purple.6025d5523491423f79a5.png",
     "static/media/EmilyZarry_Resume.pdf": "/personal-site/static/media/EmilyZarry_Resume.5bd134280d4f5bd8c4e5.pdf",
     "index.html": "/personal-site/index.html",
-    "main.52493993.css.map": "/personal-site/static/css/main.52493993.css.map",
-    "main.d19327fc.js.map": "/personal-site/static/js/main.d19327fc.js.map"
+    "main.40790f1f.css.map": "/personal-site/static/css/main.40790f1f.css.map",
+    "main.327fa7c7.js.map": "/personal-site/static/js/main.327fa7c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.52493993.css",
-    "static/js/main.d19327fc.js"
+    "static/css/main.40790f1f.css",
+    "static/js/main.327fa7c7.js"
   ]
 }
