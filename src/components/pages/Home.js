@@ -1,5 +1,5 @@
 import React from "react";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import Hero from "../Hero";
 import Cards from "../Cards";
 import Footer from "../Footer";
@@ -7,7 +7,7 @@ import Footer from "../Footer";
 export default function Home() {
   return (
     <div className="home">
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Cards />
       <Footer />
