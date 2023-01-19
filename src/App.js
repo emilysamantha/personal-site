@@ -1,9 +1,13 @@
 import Hero from "./components/Hero";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <Hero />
+      <Cards />
+      <Footer />
     </div>
   );
 }
