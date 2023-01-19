@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import CardItem from "./CardItem";
 import "./CardItem.css";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Cards() {
-  //   useEffect(() => {
-  //     AOS.init({ once: true });
-  //   }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
 
   const projects = {
     "Sudoku Game": {
