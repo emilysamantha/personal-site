@@ -11,10 +11,10 @@ export default function Cards() {
 
   const projects = {
     "Income Expense Tracker": {
-      desc: "•	Developed a web app that allows the user to track income and expense transactions. Users are able to view income and expense summaries according to month and category.",
+      desc: "Developed a web app that allows the user to track income and expense transactions. Users are able to view income and expense summaries according to month and category.",
       techStack: "React, MongoDB, Express, Node, Mongoose, Axios",
       link: "https://github.com/emilysamantha/my-expense-tracker",
-      color: "green",
+      color: "blue",
       order: 1,
     },
     "Quizzical App": {
