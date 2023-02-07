@@ -10,11 +10,11 @@ export default function Cards() {
   }, []);
 
   const projects = {
-    "Sudoku Game": {
-      desc: "Recreated the classic Sudoku game with a command-line GUI that allows the player to place a number, undo a move, and ask for a hint.",
-      techStack: "Python",
-      link: "https://github.com/emilysamantha/sudoku-game",
-      color: "purple",
+    "Income Expense Tracker": {
+      desc: "•	Developed a web app that allows the user to track income and expense transactions. Users are able to view income and expense summaries according to month and category.",
+      techStack: "React, MongoDB, Express, Node, Mongoose, Axios",
+      link: "https://github.com/emilysamantha/my-expense-tracker",
+      color: "green",
       order: 1,
     },
     "Quizzical App": {
@@ -25,19 +25,26 @@ export default function Cards() {
       color: "pink",
       order: 2,
     },
+    "Sudoku Game": {
+      desc: "Recreated the classic Sudoku game with a command-line GUI that allows the player to place a number, undo a move, and ask for a hint.",
+      techStack: "Python",
+      link: "https://github.com/emilysamantha/sudoku-game",
+      color: "purple",
+      order: 3,
+    },
     "Mario Game": {
       desc: "Applied object-oriented design principles such as Interface Segregation and Dependency Inversion to create a text-based Rogue-like game.",
       techStack: "Java",
       link: "https://github.com/emilysamantha/mario-game",
       color: "green",
-      order: 3,
+      order: 4,
     },
     "Pairs Card Game": {
       desc: "Recreated a multi-player card game called Pairs using knowledge of object-oriented programming, pointers and references, and C++ memory management.",
       techStack: "C++",
       link: "https://github.com/emilysamantha/pairs-game",
       color: "blue",
-      order: 4,
+      order: 5,
     },
     "Personal Site": {
       desc: "Designed and developed a responsive personal website to showcase my abilities, knowledge, and also personality.",
@@ -45,7 +52,7 @@ export default function Cards() {
       link: "https://github.com/emilysamantha/personal-site",
       open: "https://emilysamantha.github.io/personal-site",
       color: "green",
-      order: 5,
+      order: 6,
     },
     // "Minimax Stonehenge": {
     //   desc: "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
