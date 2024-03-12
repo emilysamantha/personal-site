@@ -50,14 +50,14 @@ export default function About() {
         </div>
         <div className="about-desc-wrapper stagger">
           <p className="about-details">
-            I am a penultimate student at Monash University majoring in Computer
+            I am a final-year student at Monash University majoring in Computer
             Science, with a minor in Software Development.
           </p>
           <br />
           <p className="about-details">
-            I have profound interest in full-stack development, machine
-            learning, cloud computing, and everything in between. I am also
-            passionate about visual arts, running, and food.
+            I have profound interest in full-stack development, algorithms,
+            database design, cloud computing, and everything in between. I am
+            also passionate about visual arts, running, reading, and food.
           </p>
           <br />
           <p className="about-details">From Indonesia, based in Melbourne.</p>
@@ -73,15 +73,17 @@ export default function About() {
           <div className="column-details blue">
             <p>
               Computer Systems, Networks & Security; Algorithms & Data
-              Structures; Object Oriented Design & Implementation; Systems
-              Development
+              Structures; Object Oriented Design & Implementation; Parallel
+              Computing; Systems Development
             </p>
             <p>
-              Mobile Application Development; e-Business Technologies (Fullstack
-              Web Development); Databases
+              Mobile Application Development; e-Business Technologies
+              (Full-stack Web Development); Databases (Relational and
+              Non-Relational)
             </p>
             <p>
-              Advanced Mathematics; Discrete Mathematics; Theory of Computation
+              Advanced Mathematics; Discrete Mathematics; Theory of Computation;
+              Programming Paradigms
             </p>
             <p>3D Modeling & Rendering</p>
           </div>
@@ -90,9 +92,12 @@ export default function About() {
         <div className="stagger">
           <h2>&lt;MainSkills /&gt;</h2>
           <div className="column-details pink">
-            <p>Web application development</p>
-            <p>Frontend, UI/UX</p>
-            <p>Python, C++, Java, HTML/CSS, JavaScript, Typescript, SQL, Go</p>
+            <p>Web application development, Android Development</p>
+            <p>Frontend, UI/UX, Agile Methodologies</p>
+            <p>
+              Python, C/C++, Go, Java, HTML/CSS, JavaScript, Typescript,
+              Haskell, SQL, MongoDB, Neo4j
+            </p>
             <p>Figma, Adobe Illustrator, Procreate</p>
           </div>
         </div>
@@ -101,9 +106,27 @@ export default function About() {
           <h2>&lt;Experience /&gt;</h2>
           <div className="column-details">
             <div>
+              <h3 className="navy">Software Engineer Intern</h3>
+              <p>
+                <a className="purple" href="https://ppiamonash.com/">
+                  @ ANZ Plus
+                </a>
+              </p>
+              <p className="purple">Jan 2024 - Present</p>
+            </div>
+            <div>
               <h3 className="navy">Webmaster</h3>
-              <p className="purple">@ Monash Indonesian Club</p>
-              <p className="purple">Jan 2023 - present</p>
+              <p>
+                <a className="purple" href="https://ppiamonash.com/">
+                  @ Monash Indonesian Club
+                </a>
+              </p>
+              <p className="purple">Jan 2023 - Dec 2023</p>
+            </div>
+            <div>
+              <h3 className="navy">Team Member/Barista</h3>
+              <p className="purple">@ Zuppa Cafe</p>
+              <p className="purple">Feb 2023 - Dec 2023</p>
             </div>
             <div>
               <h3 className="navy">Programming Bootcamp Tutor</h3>
@@ -112,13 +135,12 @@ export default function About() {
             </div>
             <div>
               <h3 className="navy">Creative Officer</h3>
-              <p className="purple">@ Indonation</p>
+              <p>
+                <a className="purple" href="https://indonation.ppia-rmit.com/">
+                  @ Indonation
+                </a>
+              </p>
               <p className="purple">Mar 2022 - Nov 2022</p>
-            </div>
-            <div>
-              <h3 className="navy">Graphic Designer</h3>
-              <p className="purple">@ Monash Indonesian Club</p>
-              <p className="purple">Dec 2021 - Dec 2022</p>
             </div>
           </div>
         </div>
@@ -126,9 +148,9 @@ export default function About() {
         <div className="stagger">
           <h2>&lt;AlsoDoing /&gt;</h2>
           <div className="column-details green">
-            <p>Running</p>
-            <p>Pilates</p>
-            <p>Tring out new food</p>
+            <p>Running, pilates, spin</p>
+            <p>Reading</p>
+            <p>Trying out new food</p>
             <p>Going to parks</p>
           </div>
         </div>

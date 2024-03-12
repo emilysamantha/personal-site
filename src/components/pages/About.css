@@ -1,6 +1,6 @@
 .about-content {
   padding: 0px 8vw;
-  max-width: 1400px;
+  max-width: 1600px;
   padding-top: 10vh;
   background-image: url("../../images/green_purple.png");
   background-size: 800px;
@@ -74,11 +74,12 @@
 .column-details {
   display: flex;
   line-height: 1.8rem;
-  gap: 20px;
+  gap: 70px;
 }
 
 .column-details > * {
   flex: 1;
+  font-size: 1.1rem;
 }
 
 h2 {

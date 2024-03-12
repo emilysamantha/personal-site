@@ -54,7 +54,7 @@ export default function Hero() {
         </div>
         <h3 className="hero-name stagger">Emily Zarry</h3>
         <h3 className="hero-desc stagger">
-          <i>Student, Software Developer</i>
+          <i>Student, Software Engineer</i>
         </h3>
         <a className="hero-btn" href="mailto:emilyzarry@gmail.com">
           <i class="fa-solid fa-envelope btn-icon"></i>Say Hello

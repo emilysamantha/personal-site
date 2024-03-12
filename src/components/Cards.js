@@ -10,6 +10,34 @@ export default function Cards() {
   }, []);
 
   const projects = {
+    "Parallel Bloom Filter String Matching": {
+      desc: "Implemented a Bloom filter string matching algorithm using the OpenMP library, utilizing multiple threads to improve performance. Processes a large text file and a query file to determine if the query strings are present in the text file.",
+      techStack: "C, OpenMP",
+      link: "https://github.com/emilysamantha/2102_A1",
+      color: "blue",
+      order: 1,
+    },
+    "Tetris": {
+      desc: "Developed a Tetris game using Functional Reactive Programming (FRP) principles and the RxJS library.",
+      techStack: "Javascript, RxJS, HTML / CSS",
+      link: "https://github.com/emilysamantha/2102_A1",
+      color: "green",
+      order: 2,
+    },
+    "Ukkonen's Algorithm": {
+      desc: "Implemented Ukkonen's algorithm to construct a suffix tree for a given string in linear time.",
+      techStack: "Python",
+      link: "https://github.com/emilysamantha/FIT3155_A2_Q1",
+      color: "pink",
+      order: 3,
+    },
+    "Burrows-Wheeler Transform Based Encoder and Decoder": {
+      desc: "Developed an encoder that performs a run-length binary encoding on the transformed input string using Huffman and Elias codewords. Also developed a decoder to decode the binary file by performing the inverse Burrows-Wheeler Transform.",
+      techStack: "Python",
+      link: "https://github.com/emilysamantha/2102_A1",
+      color: "pink",
+      order: 0,
+    },
     "Income Expense Tracker": {
       desc: "Developed a web app that allows the user to track income and expense transactions. Users are able to view income and expense summaries according to month and category.",
       techStack: "React, MongoDB, Express, Node, Mongoose, Axios",
@@ -30,21 +58,15 @@ export default function Cards() {
       techStack: "Python",
       link: "https://github.com/emilysamantha/sudoku-game",
       color: "purple",
-      order: 3,
+      order: 0,
     },
-    "Mario Game": {
-      desc: "Applied object-oriented design principles such as Interface Segregation and Dependency Inversion to create a text-based Rogue-like game.",
-      techStack: "Java",
-      link: "https://github.com/emilysamantha/mario-game",
-      color: "green",
-      order: 4,
-    },
+    
     "Pairs Card Game": {
       desc: "Recreated a multi-player card game called Pairs using knowledge of object-oriented programming, pointers and references, and C++ memory management.",
       techStack: "C++",
       link: "https://github.com/emilysamantha/pairs-game",
       color: "blue",
-      order: 5,
+      order: 1,
     },
     "Personal Site": {
       desc: "Designed and developed a responsive personal website to showcase my abilities, knowledge, and also personality.",
@@ -52,16 +74,8 @@ export default function Cards() {
       link: "https://github.com/emilysamantha/personal-site",
       open: "https://emilysamantha.github.io/personal-site",
       color: "green",
-      order: 6,
+      order: 2,
     },
-    // "Minimax Stonehenge": {
-    //   desc: "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-    //   techStack: "Python",
-    //   link: "https://github.com/gazijarin/stonehenge",
-    //   open: "",
-    //   color: "pink",
-    //   order: 6,
-    // },
   };
 
   // const projects = {
